@@ -1,9 +1,11 @@
 #dif-box {
-    width:25%;
+    width:60%;
     margin:auto;
     position:relative;
-    top:50px;
-    margin-bottom:0;
+    top:100px;
+    margin-bottom:10px;
+    background-color: #bdeaee;
+    border-radius: 20px;
 }
 .contact-info {
     width: 100%;
@@ -12,12 +14,40 @@
     width:350px;
     height:30px;
 }
+.lngwdbox {
+    width: 90%;
+    margin: 5%;
+}
+#bigboibox{
+    width:90%;
+    margin:5%;
+    height: 100px;
+}
+#submitbox{
+    margin:auto;
+    display:block;
+    position: relative;
+    bottom: 10px;
+}
 @media screen and (max-width: 980px){
+    #dif-box{
+        float: left;
+        
+    }
 
 }
 @media screen and (max-width: 768px){
-
+    #dif-box{
+        width:90%;
+        margin:5%;
+        
+    }
 }
 @media screen and (max-width: 640px){
-    
+    #dif-box{
+
+        margin-top:30%;
+        margin:5%
+    }
+
 }
