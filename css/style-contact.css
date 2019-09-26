@@ -45,9 +45,9 @@
 }
 @media screen and (max-width: 640px){
     #dif-box{
-
+        width:90%;
         margin-top:30%;
-        margin:5%
+        margin:5%;
     }
 
 }
