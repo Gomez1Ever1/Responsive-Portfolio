@@ -3,9 +3,14 @@
     margin:auto;
     position:relative;
     top:100px;
-    margin-bottom:10px;
+    margin-bottom:20px;
     background-color: #bdeaee;
     border-radius: 20px;
+}
+body{
+    margin:0px;
+    padding:0px;
+    width:100%;
 }
 .contact-info {
     width: 100%;
@@ -32,22 +37,31 @@
 @media screen and (max-width: 980px){
     #dif-box{
         float: left;
-        
+        margin-top: -20px;
     }
 
 }
 @media screen and (max-width: 768px){
     #dif-box{
+        position:relative;
+        z-index:-1;
         width:90%;
-        margin:5%;
-        
+        margin-bottom:10px;
+    }
+    .footer{
+        height:auto;
+        position:absolute;
     }
 }
 @media screen and (max-width: 640px){
     #dif-box{
+        position:none;
+        margin:auto;
+        top:auto;
         width:90%;
-        margin-top:30%;
-        margin:5%;
     }
-
+    .footer{
+    position:absolute;
+    }
 }
+
